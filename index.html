@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RITIK PORTFOLIO</title>
+    <STYLE>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{ 
+            background-color:  rgb(1, 1, 42);
+            color: white;
+        }
+        nav{
+             display: flex;
+             justify-content: space-around;
+             align-items: center;
+             background-color: rgb(206, 58, 13);
+             height: 30px;
+        }
+      nav ul{
+             display: flex;
+             justify-content: center;
+             margin: px;
+      }
+      nav ul li{
+             margin: 0 23px;
+           list-style: none;
+      }
+      .left{
+        font-size: 1.5rem;
+        font-style: inherit;
+      }
+      .firtsection{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 110px;
+      }
+      .leftsection{
+        margin: 70px 0;
+      font-size: 3rem;
+      }
+      .rightsection{
+      width: 30%;
+
+      }
+      .rightsection img{
+      margin: 50px;
+      width: 80%;
+      }
+        .purpel{
+            color: rgb(160, 76, 238);
+        }
+        nav ul li a{
+            color: azure;
+            text-decoration: none;
+        }
+        nav ul li a:hover{
+            color: rgb(4, 4, 185);
+            text-decoration: none;
+            font-size: 1.1rem;
+        }
+        .oreng{
+            color: orange;
+        }
+        .orange2{
+              color: orangered;
+        }
+        #element{
+            color: rgb(160, 76, 238);
+        }
+         .secondsection{
+            max-width: 100vw;
+            margin: 50px;
+            height: 90vh;
+         }
+         main hr{
+            border: 0;
+            background-color: blueviolet;
+            height: 1.2px;
+            margin: 35px;
+         }
+          .secondsection .box{
+            background-color: white;
+            width: 170vh;
+            height: 2px;
+            margin: 35px ;
+            display: flex;
+            position: relative;
+
+         }
+         .secondsection .vertical{
+            background-color: white;
+            height: 84px;
+            width: 1px;
+            margin: 0 100px;
+         }
+           taxt-gray{
+               color:gray
+            }
+            .top1{
+                width: 15px;
+                position: relative;
+                top: -20px;
+                right: 7px;
+            }
+            .top2{
+                width: 15px;
+                position: relative;
+                top: -20px;
+                right: 7px;
+            }
+            .top3{
+                width: 15px;
+                position: relative;
+                top: -20px;
+                right: 7px;
+            }
+            .top4{
+                width: 15px;
+                position: relative;
+                top: -20px;
+                right: 7px;
+            }
+           .vertical1{
+            position: relative;
+             top: 70px;
+             right: 41px;
+             width: 150px;
+            }
+            .vertical2{
+            position: relative;
+             top: 70px;
+             right: 41px;
+             width: 150px;
+            }
+            .vertical3{
+            position: relative;
+             top: 70px;
+             right: 41px;
+             width: 150px;
+            }
+            .vertical4{
+            position: relative;
+             top: 70px;
+             right: 41px;
+             width: 150px;
+            }
+    </STYLE>
+</head>
+<body>
+    <header>
+        <nav >
+            <div class="left">RITIK VIMAL PORTFOLIO</div>
+            <div class="right"></div>
+       <ul> 
+          <li><a href="index.html">HOME</a></li>
+               <li><a href="/">ABOUT ME</a></li>
+               <LI><a href="certificates">CERTIFICATES</a></LI>
+                <LI><a href="/">PROJECT</a></LI>
+                <li><a href="Resume.pdf">Resume</a></li>
+              </ul>
+
+        </nav>
+    </header>
+    <main>
+        <section class="firtsection">
+            <div class="leftsection">
+               <div class="oreng">Hi, my name is<br>
+               <span class="purpel">RITIK VIMAL</span></div> <br><div class="orange2">
+                3rd year student of<br>
+                   computer science and engineering<br>
+                   <span id="element"></span>
+                   </div>
+            </div>
+            <div class="rightsection">
+                <img class="collage-image" src="477_logo-300x283.png">
+            </div>
+        </section> 
+        <hr>
+
+        <section class="secondsection">
+            <span class="taxt-gray">What I done so for</span>
+            <h1>Work  Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                   <img src="c_programming.png" alt="" class="top1"> 
+                   <div class="vertical1">c programar</div>
+                </div>
+                <div class="vertical">
+                    <img src="java.png" alt="" class="top2"> 
+                   <div class="vertical2">java programar</div>
+                </div>
+                <div class="vertical">
+                    <img src="web.png" alt="" class="top3"> 
+                   <div class="vertical3">Basic Understanding of web Development</div>
+                </div>
+                <div class="vertical">
+                    <img src="DBMS.PNG" alt="" class="top4"> 
+                   <div class="vertical4">DBMS understanding</div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['<i>AKTU</i> Web Designing Workshop.', 'PORTFOLIO PROJECT.'],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
+</html>
